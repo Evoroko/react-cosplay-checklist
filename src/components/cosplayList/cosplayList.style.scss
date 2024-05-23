@@ -1,0 +1,34 @@
+.cosplayList{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.addCosplay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 8px;
+    padding: 32px 20px;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 32px;
+
+    &__container{
+        width: 100%;
+        display: flex;
+        gap: 32px;
+    }
+
+    &__el{
+        display: flex;
+        flex-direction: column;
+        text-align: left; 
+        width: 100%;
+        gap: 8px;
+
+        &--add{
+            width: 64px;
+        }
+    }
+}
